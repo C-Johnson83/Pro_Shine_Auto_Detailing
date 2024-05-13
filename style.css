@@ -11,25 +11,88 @@ nav {
     flex-direction: row;
 }
 img {
-    max-width: 50%;
+
 }
  main {
-    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, 
+    #008e97,
+    #177c92,
+    #2a6986,
+    #365776,
+    #3a4663,
+    #38364d,
+    #312838,
+    #261c25,
+    #181115,
+    #000000
+    );
     outline: aqua;
     outline-style: double;
-    width: 50%;
+    width: 80%;
     padding: 1%
 } 
 
-h1{padding-top: 5px;
+h1,h4{font-size: 10vh;
     color: aqua;
 }
-h3,h2,P {
-    background-color: white;
-    color: black;
-}
+h2 {
+    border-radius: 10%;
+  padding-left: 5%;
 
+  color: #2a6986
+}
+h3 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+   
+}
 p {
-    background-color:  white;
+font-size: 10vh;
     font-style: italic;
 }
+.card {
+    border-radius: 10%;
+    background-image: linear-gradient(to bottom, #ffffff, #949494);
+    color: #000000;
+   
+    margin: 2%;
+    min-width: 45%;
+    font-size: x-large;
+}
+.card li{
+display:flex;
+flex-direction: row;
+align-items: center;
+}
+
+.Express{
+    max-height: 800px;
+}
+@media screen and (max-width: 1200px) {
+    main {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+  
+    .card {
+      min-width: 80%; /* Adjust minimum width for smaller screens */
+    }
+   h1,h4{
+        font-size: 5vh;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    main {
+      width: 100%; /* Adjust width for smaller screens */
+    }
+  
+    .card {
+      min-width: 70%; /* Adjust minimum width for smaller screens */
+    }
+   h1,h4{
+        font-size: 3vh;
+    }
+  }
