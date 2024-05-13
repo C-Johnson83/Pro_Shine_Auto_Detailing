@@ -1,0 +1,35 @@
+body {
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+} 
+nav {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    max-width: 50%;
+}
+ main {
+    background-color: white;
+    outline: aqua;
+    outline-style: double;
+    width: 50%;
+    padding: 1%
+} 
+
+h1{padding-top: 5px;
+    color: aqua;
+}
+h3,h2,P {
+    background-color: white;
+    color: black;
+}
+
+p {
+    background-color:  white;
+    font-style: italic;
+}
